@@ -39,7 +39,7 @@ img{max-width:100%;display:block}
 a{color:inherit}
 :focus-visible{outline:2px solid var(--data);outline-offset:3px}
 h1,h2,h3{font-family:var(--display);font-weight:500;line-height:1.15;letter-spacing:-.01em}
-h1{font-size:clamp(34px,5.2vw,64px);font-weight:500}
+h1{font-size:clamp(32px,4.3vw,56px);font-weight:500}
 h2{font-size:clamp(26px,3.3vw,42px);margin-bottom:20px}
 h3{font-size:18px;margin-bottom:8px;font-weight:500}
 p{max-width:64ch}
@@ -69,6 +69,10 @@ nav a:hover{color:var(--text)}
 .hero{padding:72px 0 96px;border-top:0;overflow:hidden;position:relative}
 .hero:before{content:"";position:absolute;right:-10%;top:-20%;width:70%;height:140%;background:radial-gradient(closest-side,rgba(232,52,28,.20),transparent 70%);pointer-events:none}
 .hgrid{display:grid;grid-template-columns:1fr 1.05fr;gap:56px;align-items:center;position:relative}
+.cover{margin:0;justify-self:center;max-width:520px;width:100%}
+.cover img{width:100%;height:auto;border-radius:22px;box-shadow:0 30px 80px -20px rgba(232,52,28,.35),0 0 0 1px rgba(255,255,255,.06)}
+.ledsec{padding:96px 0}
+@media(max-width:980px){.cover{max-width:440px;order:-1}}
 .hero p.lead{font-size:19px;color:var(--muted);margin:26px 0 36px}
 .hero .cta{display:flex;gap:14px;flex-wrap:wrap}
 .award{margin-top:40px;display:flex;align-items:center;gap:14px;color:var(--muted);font-size:14px}
@@ -250,9 +254,18 @@ footer h4{color:var(--text);font:500 14px var(--display);margin-bottom:10px}
         <a class="btn" href="#order">Заказать KAISAR</a>
         <a class="btn line" href="#research">Смотреть исследования</a>
       </div>
-      <div class="award"><span class="seal">CES</span><span><b>CES 2024 Innovation Awards Honoree</b><br>категория «Доступность и долголетие»</span></div>
     </div>
 
+    <figure class="cover"><img src="cover.jpg" alt="KAISAR — носимое устройство для мужского здоровья, CES 2024 Innovation Awards Honoree" width="1100" height="1543" fetchpriority="high"></figure>
+  </div>
+</section>
+
+<section class="ledsec">
+  <div class="wrap hgrid">
+    <div>
+      <h2>40 светодиодов, два спектра</h2>
+      <p class="lede">24 диода светят красным, 16 — ближним инфракрасным, который глаз не видит. Переключите режим и посмотрите на панель так, как её видит камера телефона.</p>
+    </div>
     <div class="device" id="panel">
       <div class="sides" aria-hidden="true">
         <div class="side"><small>левая сторона</small><div class="grid" data-side="0"></div></div>
