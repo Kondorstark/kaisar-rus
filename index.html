@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KAISAR — светотерапия 630/850 нм для мужского здоровья</title>
+<meta name="description" content="KAISAR — носимое устройство фотобиомодуляции: 24 красных (630 нм) и 16 инфракрасных (850 нм) светодиодов, 15 минут в день. Исследования, механизм, патенты. Заказ с доставкой по России.">
+<link rel="canonical" href="https://kaisar-rus.com/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kaisar-rus.com/">
+<meta property="og:title" content="KAISAR — светотерапия 630/850 нм для мужского здоровья">
+<meta property="og:description" content="Носимое устройство: 24 красных и 16 инфракрасных светодиодов, 15 минут в день. Исследования, механизм, патенты. Доставка по России.">
+<meta property="og:image" content="https://kaisar-rus.com/glow.jpg">
+<meta name="theme-color" content="#0B1A2C">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>
+@font-face{font-family:'Unbounded';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/unbounded-cyrillic-400-normal.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:'Unbounded';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/unbounded-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Unbounded';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/unbounded-cyrillic-500-normal.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:'Unbounded';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/unbounded-latin-500-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Manrope';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/manrope-cyrillic-400-normal.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:'Manrope';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/manrope-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Manrope';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/manrope-cyrillic-500-normal.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:'Manrope';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/manrope-latin-500-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Manrope';font-style:normal;font-weight:600;font-display:swap;src:url(fonts/manrope-cyrillic-600-normal.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:'Manrope';font-style:normal;font-weight:600;font-display:swap;src:url(fonts/manrope-latin-600-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Manrope';font-style:normal;font-weight:700;font-display:swap;src:url(fonts/manrope-cyrillic-700-normal.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:'Manrope';font-style:normal;font-weight:700;font-display:swap;src:url(fonts/manrope-latin-700-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+:root{
+  --ink:#0B1A2C; --deep:#081321; --panel:#12263D; --panel2:#183150; --line:rgba(180,205,235,.14);
+  --text:#E8EEF5; --muted:#93A6BC; --red:#E8341C; --red-soft:#FF6A4D; --nir:#C9B6FF; --data:#4DA8E6;
+  --display:"Unbounded",system-ui,sans-serif; --body:"Manrope",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--ink);color:var(--text);font:400 16px/1.65 var(--body)}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--data);outline-offset:3px}
+h1,h2,h3{font-family:var(--display);font-weight:500;line-height:1.15;letter-spacing:-.01em}
+h1{font-size:clamp(34px,5.2vw,64px);font-weight:500}
+h2{font-size:clamp(26px,3.3vw,42px);margin-bottom:20px}
+h3{font-size:18px;margin-bottom:8px;font-weight:500}
+p{max-width:64ch}
+.muted{color:var(--muted)}
+.wrap{max-width:1240px;margin:0 auto;padding:0 28px}
+section{padding:110px 0;border-top:1px solid var(--line)}
+.lede{font-size:18px;color:var(--muted);margin-bottom:48px;max-width:60ch}
+
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--red);color:#fff;text-decoration:none;font:600 15px var(--body);padding:16px 28px;border-radius:999px;border:0;cursor:pointer}
+.btn:hover{background:#ff4529}
+.btn.line{background:transparent;color:var(--text);box-shadow:inset 0 0 0 1px rgba(232,238,245,.35)}
+.btn.line:hover{box-shadow:inset 0 0 0 1px var(--text)}
+
+/* header */
+header{position:sticky;top:0;z-index:20;background:rgba(11,26,44,.86);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.hdr{display:flex;align-items:center;justify-content:space-between;height:72px;gap:24px}
+.logo{font-family:var(--display);font-size:22px;letter-spacing:.32em;text-decoration:none;font-weight:500}
+nav{display:flex;gap:26px;font-size:14.5px;color:var(--muted)}
+nav a{text-decoration:none}
+nav a:hover{color:var(--text)}
+.hdr .btn{padding:11px 20px;font-size:14px}
+@media(max-width:980px){nav{display:none}}
+
+/* hero */
+.hero{padding:72px 0 96px;border-top:0;overflow:hidden;position:relative}
+.hero:before{content:"";position:absolute;right:-10%;top:-20%;width:70%;height:140%;background:radial-gradient(closest-side,rgba(232,52,28,.20),transparent 70%);pointer-events:none}
+.hgrid{display:grid;grid-template-columns:1fr 1.05fr;gap:56px;align-items:center;position:relative}
+.hero p.lead{font-size:19px;color:var(--muted);margin:26px 0 36px}
+.hero .cta{display:flex;gap:14px;flex-wrap:wrap}
+.award{margin-top:40px;display:flex;align-items:center;gap:14px;color:var(--muted);font-size:14px}
+.award b{color:var(--text);font-weight:600}
+.award .seal{width:46px;height:46px;border-radius:10px;background:var(--panel2);display:grid;place-items:center;font:600 12px var(--display);color:var(--text)}
+@media(max-width:980px){.hgrid{grid-template-columns:1fr}}
+
+/* LED panel */
+.device{background:linear-gradient(180deg,#1b2a3c,#0d1826);border-radius:28px;padding:28px;border:1px solid var(--line)}
+.sides{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.side{background:#05090f;border-radius:18px;padding:22px 18px;position:relative;box-shadow:inset 0 0 0 1px rgba(255,255,255,.05)}
+.side small{position:absolute;top:8px;left:14px;font-size:11px;color:#56677c}
+.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:clamp(10px,1.6vw,18px);margin-top:10px}
+.led{aspect-ratio:1;border-radius:6px;background:#1a1416;transition:background .5s,box-shadow .5s}
+.led.r.on{background:#ff5a3c;box-shadow:0 0 10px 2px rgba(255,70,40,.85),0 0 28px 6px rgba(232,52,28,.45)}
+.led.n{background:#1c1520}
+.cam .led.n.on{background:#efe8ff;box-shadow:0 0 10px 2px rgba(201,182,255,.9),0 0 26px 8px rgba(160,130,255,.45)}
+.cam .side{background:#090812}
+.toggle{display:flex;background:var(--deep);border-radius:999px;padding:5px;margin-top:22px;border:1px solid var(--line)}
+.toggle button{flex:1;border:0;background:transparent;color:var(--muted);font:600 14px var(--body);padding:11px 14px;border-radius:999px;cursor:pointer}
+.toggle button[aria-pressed=true]{background:var(--panel2);color:var(--text)}
+.legend{display:flex;gap:22px;flex-wrap:wrap;margin-top:18px;font-size:14px;color:var(--muted)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:8px;vertical-align:1px}
+.cap{font-size:14px;color:var(--muted);margin-top:14px;min-height:44px}
+
+/* facts */
+.facts{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.fact{padding:34px 26px;border-right:1px solid var(--line)}
+.fact:last-child{border-right:0}
+.fact b{display:block;font:500 clamp(28px,3vw,40px)/1.1 var(--display);margin-bottom:10px}
+.fact span{color:var(--muted);font-size:14.5px}
+@media(max-width:860px){.facts{grid-template-columns:1fr 1fr}.fact:nth-child(2){border-right:0}.fact:nth-child(-n+2){border-bottom:1px solid var(--line)}}
+
+/* wavelengths */
+.spectrum{position:relative;height:64px;border-radius:12px;margin-top:56px!important;background:linear-gradient(90deg,#6a2bd9 0%,#3d4fe6 8%,#1fa2e0 16%,#22b35a 22%,#cfe03a 29%,#f6c21e 32%,#f5861f 35%,#ec3a1c 39%,#c01515 45%,#6e0b0b 50%,#2e0910 58%,#1a0810 100%);margin:30px 0 70px}
+.tick{position:absolute;top:-8px;bottom:-8px;width:2px;background:#fff}
+.tick span{position:absolute;top:84px;transform:translateX(-50%);white-space:nowrap;font-size:14px;color:var(--text)}
+.tick span b{font-family:var(--display);font-weight:500;font-size:18px;display:block}
+.edge{position:absolute;top:0;bottom:0;border-left:1px dashed rgba(255,255,255,.55)}
+.edge em{position:absolute;top:-26px;font-style:normal;font-size:12.5px;color:var(--muted);white-space:nowrap}
+.edge em:first-child{right:10px}.edge em:last-child{left:10px}
+.axis{display:flex;justify-content:space-between;color:var(--muted);font-size:13px;margin-top:-58px;margin-bottom:56px}
+.zones{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.zone{background:var(--panel);border-radius:22px;overflow:hidden;border:1px solid var(--line)}
+.zone img{width:100%;aspect-ratio:2.9/1;object-fit:cover}
+.zone .in{padding:28px}
+.zone .nm{font:500 34px var(--display);margin-bottom:6px}
+.zone.z630 .nm{color:var(--red-soft)}
+.zone.z850 .nm{color:var(--nir)}
+.depth{display:flex;align-items:center;gap:12px;margin:14px 0;font-size:14px;color:var(--muted)}
+.bar{flex:1;height:8px;border-radius:8px;background:rgba(255,255,255,.08);overflow:hidden}
+.bar i{display:block;height:100%;border-radius:8px}
+@media(max-width:860px){.zones{grid-template-columns:1fr}}
+
+/* mechanism */
+.mech{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:10px}
+.mstep{border-top:2px solid var(--red);padding-top:22px}
+.mstep .n{font:500 15px var(--display);color:var(--red-soft);margin-bottom:12px}
+.mechimg{margin-top:44px;border-radius:20px;background:#efe9e4;padding:10px}
+@media(max-width:860px){.mech{grid-template-columns:1fr}}
+
+/* research */
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:26px}
+.tabs button{border:1px solid var(--line);background:transparent;color:var(--muted);font:600 14px var(--body);padding:11px 18px;border-radius:999px;cursor:pointer}
+.tabs button[aria-selected=true]{background:var(--text);color:var(--ink);border-color:var(--text)}
+.rgrid{display:grid;grid-template-columns:1.35fr 1fr;gap:36px;background:var(--panel);border:1px solid var(--line);border-radius:26px;padding:36px}
+.chart svg{width:100%;height:auto;display:block}
+.chart text{font-family:var(--body)}
+.rinfo h3{font-size:22px;margin-bottom:14px}
+.kv{margin-top:22px;border-top:1px solid var(--line)}
+.kv div{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid var(--line);font-size:14.5px}
+.kv dt{color:var(--muted)}
+.result{margin-top:22px;font:500 28px var(--display);color:var(--data)}
+.result small{display:block;font:400 14px var(--body);color:var(--muted);margin-top:4px}
+.heat{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:30px}
+.heat figure{background:var(--deep);border-radius:14px;overflow:hidden}
+.heat img{width:100%;aspect-ratio:186/205;object-fit:cover}
+.heat figcaption{font-size:13px;color:var(--muted);padding:10px 12px}
+.disclaimer{margin-top:26px;font-size:14px;color:var(--muted);border-left:2px solid var(--data);padding-left:16px;max-width:90ch}
+@media(max-width:900px){.rgrid{grid-template-columns:1fr;padding:22px}.heat{grid-template-columns:1fr 1fr}}
+
+/* device */
+.dgrid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+.photo{border-radius:24px;overflow:hidden;background:#eee}
+.photo img{width:100%;height:100%;object-fit:cover}
+table{width:100%;border-collapse:collapse;font-size:15px}
+td{padding:14px 0;border-bottom:1px solid var(--line);vertical-align:top}
+td:first-child{color:var(--muted);width:40%;padding-right:16px}
+.trio{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:56px}
+.trio img{border-radius:18px;aspect-ratio:4/3;object-fit:cover;width:100%;margin-bottom:16px}
+@media(max-width:860px){.dgrid,.trio{grid-template-columns:1fr}}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.step .n{font:500 40px/1 var(--display);color:var(--red-soft);margin-bottom:16px}
+.stepsimg{margin-top:40px;border-radius:18px;background:#fff;padding:8px}
+.timer{display:flex;align-items:center;gap:22px;margin-top:44px;background:var(--panel);border-radius:22px;padding:22px 26px;border:1px solid var(--line)}
+.timer svg{flex:none}
+@media(max-width:860px){.steps{grid-template-columns:1fr 1fr}}
+
+/* docs */
+.docs{display:grid;grid-template-columns:repeat(7,1fr);gap:14px}
+.docs.c5{grid-template-columns:repeat(5,1fr);margin-top:20px}
+.doc{background:none;border:0;padding:0;cursor:zoom-in;text-align:left;color:var(--text)}
+.doc img{border-radius:8px;aspect-ratio:3/4;object-fit:cover;width:100%;background:#fff;transition:transform .2s}
+.doc:hover img{transform:translateY(-3px)}
+.doc span{display:block;font-size:13px;margin-top:10px;color:var(--muted);line-height:1.35}
+.doc span b{color:var(--text);font-weight:600}
+.subh{font:500 16px var(--display);margin:52px 0 18px;color:var(--muted)}
+.subh:first-of-type{margin-top:0}
+dialog{border:0;border-radius:16px;padding:0;background:#fff;max-width:min(92vw,620px)}
+dialog::backdrop{background:rgba(4,10,18,.82)}
+dialog img{max-height:86vh;width:auto;margin:0 auto}
+dialog button{position:absolute;top:10px;right:10px;border:0;background:var(--ink);color:#fff;width:36px;height:36px;border-radius:50%;cursor:pointer;font-size:18px}
+@media(max-width:860px){.docs{grid-template-columns:repeat(4,1fr)}.docs.c5{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:480px){.docs{grid-template-columns:repeat(3,1fr)}}
+
+/* team */
+.team{display:grid;grid-template-columns:repeat(5,1fr);gap:20px}
+.person{padding:22px;background:var(--panel);border-radius:18px;border:1px solid var(--line)}
+.person b{display:block;font-weight:600;margin-bottom:6px}
+.person span{font-size:13.5px;color:var(--muted);line-height:1.45;display:block}
+@media(max-width:980px){.team{grid-template-columns:1fr 1fr}}
+
+/* order */
+.order{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.order .photo{aspect-ratio:4/3}
+.price{font:500 34px var(--display);margin:8px 0 24px}
+.order ul{list-style:none;margin:0 0 30px}
+.order li{padding:12px 0;border-bottom:1px solid var(--line);color:var(--muted)}
+.order li b{color:var(--text);font-weight:600}
+.cta{display:flex;gap:14px;flex-wrap:wrap}
+.small{font-size:14px;color:var(--muted);margin-top:16px}
+@media(max-width:860px){.order{grid-template-columns:1fr}}
+
+/* faq */
+details{border-bottom:1px solid var(--line);padding:22px 0}
+summary{cursor:pointer;font:500 18px var(--display);list-style:none;display:flex;justify-content:space-between;gap:20px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";color:var(--red-soft);font-size:24px;line-height:1}
+details[open] summary:after{content:"−"}
+details p{margin-top:12px;color:var(--muted)}
+
+footer{background:var(--deep);padding:60px 0 40px;font-size:14px;color:var(--muted)}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
+footer .logo{display:inline-block;margin-bottom:16px;color:var(--text)}
+footer h4{color:var(--text);font:500 14px var(--display);margin-bottom:10px}
+.legal{border-top:1px solid var(--line);margin-top:40px;padding-top:22px;font-size:12.5px;line-height:1.7}
+@media(max-width:760px){.fgrid{grid-template-columns:1fr}}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap hdr">
+    <a class="logo" href="#top">KAISAR</a>
+    <nav aria-label="Разделы">
+      <a href="#light">Свет</a>
+      <a href="#mechanism">Механизм</a>
+      <a href="#research">Исследования</a>
+      <a href="#device">Устройство</a>
+      <a href="#patents">Патенты</a>
+      <a href="#faq">Вопросы</a>
+    </nav>
+    <a class="btn" href="#order">Заказать</a>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="wrap hgrid">
+    <div>
+      <h1>Свет 630 и 850 нанометров для мужского здоровья</h1>
+      <p class="lead">KAISAR — носимое устройство фотобиомодуляции. 40 светодиодов направляют красный и ближний инфракрасный свет на две зоны за один сеанс 15 минут. Без таблеток и без вмешательства.</p>
+      <div class="cta">
+        <a class="btn" href="#order">Заказать KAISAR</a>
+        <a class="btn line" href="#research">Смотреть исследования</a>
+      </div>
+      <div class="award"><span class="seal">CES</span><span><b>CES 2024 Innovation Awards Honoree</b><br>категория «Доступность и долголетие»</span></div>
+    </div>
+
+    <div class="device" id="panel">
+      <div class="sides" aria-hidden="true">
+        <div class="side"><small>левая сторона</small><div class="grid" data-side="0"></div></div>
+        <div class="side"><small>правая сторона</small><div class="grid" data-side="1"></div></div>
+      </div>
+      <div class="toggle" role="group" aria-label="Режим просмотра светодиодов">
+        <button type="button" aria-pressed="true" data-mode="eye">Глазами</button>
+        <button type="button" aria-pressed="false" data-mode="cam">Через камеру телефона</button>
+      </div>
+      <div class="legend">
+        <span><i style="background:var(--red-soft)"></i>24 красных, 630 нм</span>
+        <span><i style="background:var(--nir)"></i>16 инфракрасных, 850 нм</span>
+      </div>
+      <p class="cap" id="cap">Глаз видит только красные диоды. Инфракрасные работают, но их свет за пределами видимого спектра.</p>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="facts">
+    <div class="fact"><b>4 года</b><span>исследований с врачами университетских больниц Кореи</span></div>
+    <div class="fact"><b>9 000</b><span>устройств продано за 2 года</span></div>
+    <div class="fact"><b>42 страны</b><span>где продаётся KAISAR</span></div>
+    <div class="fact"><b>5 регионов</b><span>патентной защиты: Корея, США, Китай, Япония, Европа</span></div>
+  </div>
+</div>
+
+<section id="light">
+  <div class="wrap">
+    <h2>Две длины волны — две задачи</h2>
+    <p class="lede">Красный и ближний инфракрасный свет относятся к так называемому «терапевтическому окну»: они проходят в ткани глубже видимого света других цветов. Инфракрасный проникает глубже красного.</p>
+    <div class="spectrum" role="img" aria-label="Спектр от 400 до 1000 нанометров с отметками 630 и 850 нм">
+      <div class="edge" style="left:50%"><em>видимый</em><em>невидимый</em></div>
+      <div class="tick" style="left:38.3%"><span><b>630 нм</b>красный</span></div>
+      <div class="tick" style="left:75%"><span><b>850 нм</b>ближний ИК</span></div>
+    </div>
+    <div class="axis"><span>400 нм</span><span>1000 нм</span></div>
+
+    <div class="zones">
+      <article class="zone z850">
+        <img src="zone850.jpg" alt="Схема: инфракрасный свет направлен на половой член">
+        <div class="in">
+          <div class="nm">850 нм</div>
+          <h3>Половой член — кровоток</h3>
+          <div class="depth"><span>Глубина</span><div class="bar"><i style="width:86%;background:var(--nir)"></i></div><span>глубже</span></div>
+          <p class="muted">По данным производителя, инфракрасный свет запускает выработку оксида азота (NO) — молекулы, которая расширяет сосуды и нужна для эрекции.</p>
+        </div>
+      </article>
+      <article class="zone z630">
+        <img src="zone630.jpg" alt="Схема: красный свет направлен на яички">
+        <div class="in">
+          <div class="nm">630 нм</div>
+          <h3>Яички — гормоны</h3>
+          <div class="depth"><span>Глубина</span><div class="bar"><i style="width:52%;background:var(--red-soft)"></i></div><span>мельче</span></div>
+          <p class="muted">По данным производителя, красный свет активирует клетки Лейдига — именно они вырабатывают тестостерон.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="mechanism">
+  <div class="wrap">
+    <h2>Что происходит в клетке</h2>
+    <p class="lede">Фотобиомодуляция — воздействие света определённой длины волны на клетки. Механизм, на который опирается KAISAR, по шагам:</p>
+    <div class="mech">
+      <div class="mstep"><div class="n">Шаг 1</div><h3>Свет открывает ионные каналы</h3><p class="muted">Красный и инфракрасный свет действует на ионные каналы клеточной мембраны: в клетку входит больше ионов кальция.</p></div>
+      <div class="mstep"><div class="n">Шаг 2</div><h3>Митохондрии дают больше энергии</h3><p class="muted">Растёт выработка АТФ — топлива клетки. По данным производителя, это связано с подвижностью сперматозоидов и работой тканей яичек.</p></div>
+      <div class="mstep"><div class="n">Шаг 3</div><h3>Оксид азота и тестостерон</h3><p class="muted">Повышается выработка оксида азота, улучшается кровообращение. Клетки Лейдига активнее синтезируют тестостерон.</p></div>
+    </div>
+    <img class="mechimg" src="mech.jpg" alt="Иллюстрации трёх механизмов: ионные каналы и АТФ, оксид азота, клетки Лейдига">
+  </div>
+</section>
+
+<section id="research">
+  <div class="wrap">
+    <h2>Исследования производителя</h2>
+    <p class="lede">DARAM INC. провела серию доклинических экспериментов на лабораторных моделях совместно с университетскими больницами Южной Кореи. Выберите показатель:</p>
+    <div class="tabs" role="tablist" aria-label="Исследования">
+      <button role="tab" aria-selected="true" data-i="0">Тестостерон</button>
+      <button role="tab" aria-selected="false" data-i="1">Оксид азота</button>
+      <button role="tab" aria-selected="false" data-i="2">Кровоток</button>
+      <button role="tab" aria-selected="false" data-i="3">Масса яичек</button>
+    </div>
+    <div class="rgrid" role="tabpanel">
+      <div class="chart" id="chart"></div>
+      <div class="rinfo">
+        <h3 id="rt"></h3>
+        <p class="muted" id="rd"></p>
+        <div class="result" id="rr"></div>
+        <dl class="kv" id="rk"></dl>
+      </div>
+    </div>
+    <div class="heat" id="heat">
+      <figure><img src="heat0.jpg" alt="Тепловая карта кровотока без света"><figcaption>Без света</figcaption></figure>
+      <figure><img src="heat1.jpg" alt="Тепловая карта кровотока при 630 нм"><figcaption>630 нм</figcaption></figure>
+      <figure><img src="heat2.jpg" alt="Тепловая карта кровотока при инфракрасном свете"><figcaption>ИК 880 нм</figcaption></figure>
+      <figure><img src="heat3.jpg" alt="Тепловая карта кровотока при комбинации красного и инфракрасного света"><figcaption>630 + 880 нм</figcaption></figure>
+    </div>
+    <p class="disclaimer">Данные — доклинические, получены производителем на лабораторных животных; значения сняты с графиков в брошюре DARAM и округлены. Клинические исследования на людях пока не опубликованы. KAISAR не является лекарственным средством и не заменяет консультацию врача.</p>
+  </div>
+</section>
+
+<section id="device">
+  <div class="wrap">
+    <h2>Устройство</h2>
+    <p class="lede">104 грамма, одна кнопка, U-образная гибкая форма. Внутри два ряда светодиодных панелей, аккумулятор и таймер.</p>
+    <div class="dgrid">
+      <div class="photo"><img src="glow.jpg" alt="KAISAR со светящимися светодиодами"></div>
+      <table>
+        <tr><td>Светодиоды</td><td>40: 24 красных (630 нм), 16 ближних ИК (850 нм)</td></tr>
+        <tr><td>Мощность</td><td>25 мВт/см² на светодиод</td></tr>
+        <tr><td>Сеанс</td><td>15 минут, автоотключение с вибрацией</td></tr>
+        <tr><td>Размер</td><td>48 × 62 (внутр. ширина) × 96 мм</td></tr>
+        <tr><td>Вес</td><td>104 г</td></tr>
+        <tr><td>Аккумулятор</td><td>Li-Polymer 3,7 В, 600 мА·ч — 5–6 сеансов</td></tr>
+        <tr><td>Зарядка</td><td>USB-C, 5 В (адаптер не входит в комплект)</td></tr>
+        <tr><td>Цвет</td><td>Металлический коричневый</td></tr>
+        <tr><td>Комплект</td><td>Устройство, кабель USB-C 1 м, инструкция, подарочная коробка</td></tr>
+        <tr><td>Производство</td><td>DARAM INC., Республика Корея</td></tr>
+      </table>
+    </div>
+    <div class="trio">
+      <div><img src="led.jpg" alt="Светодиоды крупным планом"><h3>40 диодов, два спектра</h3><p class="muted">Инфракрасные диоды не светятся для глаза — проверить их можно камерой смартфона.</p></div>
+      <div><img src="hand.jpg" alt="KAISAR в руке"><h3>Одна кнопка</h3><p class="muted">Нет режимов и настроек. Нажали — сеанс начался, через 15 минут устройство выключится само.</p></div>
+      <div><img src="fit.jpg" alt="Схема посадки для разных размеров"><h3>Под любой размер</h3><p class="muted">Гибкая форма держится на месте сама, без ремней и креплений.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <h2>Как пользоваться</h2>
+    <div class="steps">
+      <div class="step"><div class="n">1</div><h3>Включите</h3><p class="muted">Нажмите кнопку питания.</p></div>
+      <div class="step"><div class="n">2</div><h3>Наденьте</h3><p class="muted">Разместите устройство широкой стороной на интимной зоне.</p></div>
+      <div class="step"><div class="n">3</div><h3>15 минут</h3><p class="muted">Читайте, смотрите видео, занимайтесь делами.</p></div>
+      <div class="step"><div class="n">4</div><h3>Готово</h3><p class="muted">Лёгкая вибрация — сеанс окончен, устройство выключилось.</p></div>
+    </div>
+    <img class="stepsimg" src="steps.jpg" alt="Иллюстрации четырёх шагов использования">
+    <div class="timer">
+      <svg width="74" height="74" viewBox="0 0 74 74" aria-hidden="true"><circle cx="37" cy="37" r="31" fill="none" stroke="rgba(255,255,255,.1)" stroke-width="6"/><circle id="ring" cx="37" cy="37" r="31" fill="none" stroke="#E8341C" stroke-width="6" stroke-linecap="round" stroke-dasharray="194.8" stroke-dashoffset="0" transform="rotate(-90 37 37)"/></svg>
+      <div><div style="font:500 26px var(--display)" id="clock">15:00</div><p class="muted" style="font-size:14px">Один сеанс в день. Заряда хватает почти на неделю.</p></div>
+      <button class="btn line" type="button" id="demo" style="margin-left:auto">Показать сеанс</button>
+    </div>
+  </div>
+</section>
+
+<section id="patents">
+  <div class="wrap">
+    <h2>Патенты и сертификаты</h2>
+    <p class="lede">Конструкция носимого устройства запатентована в пяти регионах, включая европейский патент EP4371607 «Носимое устройство для мужских половых органов» (выдан 01.10.2025). Нажмите на документ, чтобы рассмотреть.</p>
+    <div class="subh">Патенты и дизайн</div>
+    <div class="docs">
+      <button class="doc" data-src="pat0.jpg"><img src="pat0.jpg" alt="Патент США"><span><b>Патент</b><br>США</span></button>
+      <button class="doc" data-src="pat1.jpg"><img src="pat1.jpg" alt="Патент Китая"><span><b>Патент</b><br>Китай</span></button>
+      <button class="doc" data-src="pat2.jpg"><img src="pat2.jpg" alt="Патент Японии"><span><b>Патент</b><br>Япония</span></button>
+      <button class="doc" data-src="pat3.jpg"><img src="pat3.jpg" alt="Европейский патент EP4371607"><span><b>Патент</b><br>Европа</span></button>
+      <button class="doc" data-src="pat4.jpg"><img src="pat4.jpg" alt="Единый европейский патент"><span><b>Патент</b><br>Великобритания</span></button>
+      <button class="doc" data-src="pat5.jpg"><img src="pat5.jpg" alt="Патент Кореи"><span><b>Патент</b><br>Корея</span></button>
+      <button class="doc" data-src="pat6.jpg"><img src="pat6.jpg" alt="Регистрация дизайна в Корее"><span><b>Дизайн</b><br>Корея</span></button>
+    </div>
+    <div class="subh">Сертификаты</div>
+    <div class="docs c5">
+      <button class="doc" data-src="cert0.jpg"><img src="cert0.jpg" alt="Сертификат FCC"><span><b>FCC</b><br>США</span></button>
+      <button class="doc" data-src="cert1.jpg"><img src="cert1.jpg" alt="Сертификат CE"><span><b>CE</b><br>Евросоюз</span></button>
+      <button class="doc" data-src="cert2.jpg"><img src="cert2.jpg" alt="Декларация RoHS ЕС"><span><b>RoHS</b><br>Евросоюз</span></button>
+      <button class="doc" data-src="cert3.jpg"><img src="cert3.jpg" alt="Сертификат RoHS ОАЭ"><span><b>RoHS</b><br>ОАЭ</span></button>
+      <button class="doc" data-src="cert4.jpg"><img src="cert4.jpg" alt="Сертификат KC Кореи"><span><b>KC</b><br>Корея</span></button>
+    </div>
+    <p class="small">FCC, CE, RoHS и KC подтверждают электробезопасность, электромагнитную совместимость и отсутствие вредных веществ.</p>
+  </div>
+</section>
+
+<section id="team">
+  <div class="wrap">
+    <h2>Кто стоит за KAISAR</h2>
+    <p class="lede">Научно-консультативный совет — урологи университетских больниц Южной Кореи и исследователи.</p>
+    <div class="team">
+      <div class="person"><b>Сукун Кан</b><span>доктор медицины, профессор, университетская больница (Южная Корея)</span></div>
+      <div class="person"><b>Вончхоль Шин</b><span>доктор медицины, профессор, университетская больница (Южная Корея)</span></div>
+      <div class="person"><b>Хёнджун Пак</b><span>доктор медицины, профессор, университетская больница (Южная Корея)</span></div>
+      <div class="person"><b>Минкён Чо</b><span>старший научный сотрудник, PhD</span></div>
+      <div class="person"><b>Джин Ким</b><span>консультант по исследованиям и разработкам, PhD</span></div>
+    </div>
+    <p class="small">Компания DARAM INC., Пусан, Республика Корея. Генеральный директор — Сокхи Кан.</p>
+  </div>
+</section>
+
+<section id="order">
+  <div class="wrap order">
+    <div class="photo"><img src="boxphoto.jpg" alt="KAISAR и фирменная коробка"></div>
+    <div>
+      <h2>Заказ в России</h2>
+      <div class="price">Цена по запросу</div>
+      <ul>
+        <li><b>Доставка</b> по всей России — сроки и стоимость сообщим при заказе</li>
+        <li><b>Упаковка</b> нейтральная, без названия товара</li>
+        <li><b>Консультация</b> на русском языке</li>
+      </ul>
+      <div class="cta">
+        <a class="btn" href="https://t.me/+972549457499">Написать в Telegram</a>
+        <a class="btn line" href="https://wa.me/972549457499?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20KAISAR">Написать в WhatsApp</a>
+        <a class="btn line" href="mailto:gm@israway.com?subject=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%20KAISAR">Написать на почту</a>
+      </div>
+      <p class="small">Telegram, WhatsApp и телефон: +972-54-945-7499<br>Почта: gm@israway.com</p>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap" style="max-width:920px">
+    <h2>Частые вопросы</h2>
+    <details><summary>Как часто пользоваться?</summary><p>Производитель рекомендует один сеанс 15 минут в день. Важна регулярность.</p></details>
+    <details><summary>Что чувствуется во время сеанса?</summary><p>Лёгкое тепло от светодиодов. Боли нет. В конце устройство коротко вибрирует и выключается.</p></details>
+    <details><summary>Как убедиться, что инфракрасные диоды работают?</summary><p>Посмотрите на включённое устройство через камеру смартфона: инфракрасные диоды будут видны как бледно-фиолетовые точки.</p></details>
+    <details><summary>Доказано ли действие на людях?</summary><p>Исследования производителя проводились на лабораторных моделях. Клинические исследования на людях пока не опубликованы.</p></details>
+    <details><summary>Может ли KAISAR заменить лекарства?</summary><p>Нет. Это устройство для поддержания здоровья, а не лекарство. Если вы лечитесь или принимаете препараты, посоветуйтесь с врачом.</p></details>
+    <details><summary>Как заряжать?</summary><p>Кабелем USB-C из комплекта от любого USB-адаптера или компьютера. Полного заряда хватает на 5–6 сеансов.</p></details>
+  </div>
+</section>
+
+</main>
+
+<dialog id="zoom"><button type="button" aria-label="Закрыть">×</button><img alt="Документ крупно"></dialog>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div><span class="logo">KAISAR</span><p>Носимое устройство фотобиомодуляции: 630 нм и 850 нм, 15 минут в день.</p></div>
+      <div><h4>Продавец</h4><p>Israway (Израиль)<br>gm@israway.com<br>+972-54-945-7499</p></div>
+      <div><h4>Производитель</h4><p>DARAM INC.<br>Республика Корея</p></div>
+    </div>
+    <div class="legal">KAISAR — товарный знак DARAM INC. Israway — независимый продавец. Устройство не является лекарственным средством, не предназначено для диагностики и лечения заболеваний и не заменяет консультацию врача. Сведения о механизме действия и исследованиях приведены по данным производителя.</div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // LED panel: per side 12 red + 8 NIR
+  var pattern = ['RRRRR','NRNRN','NRNRN','RNRNR'];
+  var leds=[];
+  document.querySelectorAll('.grid').forEach(function(g){
+    pattern.join('').split('').forEach(function(c){
+      var d=document.createElement('div'); d.className='led '+(c==='R'?'r':'n'); g.appendChild(d); leds.push(d);
+    });
+  });
+  if(reduce){ leds.forEach(function(l){l.classList.add('on')}); }
+  else { leds.forEach(function(l,i){ setTimeout(function(){l.classList.add('on')}, 300+i*45); }); }
+  var panel=document.getElementById('panel'), cap=document.getElementById('cap');
+  var caps={eye:'Глаз видит только красные диоды. Инфракрасные работают, но их свет за пределами видимого спектра.',
+            cam:'Камера телефона улавливает ближний инфракрасный свет — 16 диодов 850 нм проявляются бледно-фиолетовым.'};
+  panel.querySelectorAll('.toggle button').forEach(function(b){
+    b.addEventListener('click',function(){
+      panel.querySelectorAll('.toggle button').forEach(function(x){x.setAttribute('aria-pressed', x===b?'true':'false')});
+      panel.classList.toggle('cam', b.dataset.mode==='cam'); cap.textContent=caps[b.dataset.mode];
+    });
+  });
+
+  // Research charts (values read from manufacturer charts, rounded)
+  var R=[
+    {t:'Тестостерон в крови после красного света 630 нм', d:'Уровень тестостерона в процентах от исходного: без света и при облучении 630 нм. Измерение раз в неделю.',
+     r:'до +33%', rs:'к исходному уровню на 15-й день при 630 нм',
+     kv:[['Длительность','22 дня'],['Измерения','еженедельно'],['Свет','630 нм']],
+     unit:'% от исходного', max:150, groups:['Старт','День 1','День 8','День 15','День 22'],
+     series:[{n:'Без света',c:'#5F7088',v:[100,42,85,85,74]},{n:'630 нм',c:'#E8341C',v:[100,127,123,133,87]}]},
+    {t:'Оксид азота: экспрессия гена NOS2', d:'Активность гена фермента, который вырабатывает оксид азота, относительно группы без света.',
+     r:'≈ в 7 раз', rs:'выше при 850 нм, чем без света',
+     kv:[['Длительность','6 дней'],['Режим','через день'],['Свет','630 и 850 нм']],
+     unit:'отн. уровень', max:8, groups:['Без света','630 нм','850 нм'],
+     series:[{n:'Экспрессия NOS2',c:'#E8341C',v:[0.9,2.6,6.2],colors:['#5F7088','#F0613F','#E8341C']}]},
+    {t:'Кровоток в мошонке', d:'Перфузия по данным лазерной допплеровской визуализации (LDPI, отношение яички/хвост) после курса облучения.',
+     r:'≈ +46%', rs:'при комбинации 630 + 880 нм к группе без света',
+     kv:[['Длительность','5 дней'],['Режим','ежедневно'],['Метод','лазерная допплерография']],
+     unit:'LDPI', max:80, groups:['Без света','630 нм','880 нм','630+880'],
+     series:[{n:'Перфузия',c:'#E8341C',v:[50,50,64,73],colors:['#5F7088','#F0613F','#C9B6FF','#E8341C']}]},
+    {t:'Масса яичек после курса', d:'Отношение массы яичек к массе тела после курса фотобиомодуляции.',
+     r:'≈ +13%', rs:'при комбинации 630 + 850 нм к группе без света',
+     kv:[['Длительность','14 дней'],['Режим','через день'],['Свет','630, 850 нм и вместе']],
+     unit:'мг/г', max:10, groups:['Без света','630 нм','850 нм','630+850'],
+     series:[{n:'Масса',c:'#E8341C',v:[7.6,8.1,8.3,8.6],colors:['#5F7088','#F0613F','#C9B6FF','#E8341C']}]}
+  ];
+  function draw(i){
+    var o=R[i], W=640,H=380,pl=56,pr=16,pt=24,pb=56, iw=W-pl-pr, ih=H-pt-pb;
+    var s='<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+o.t+'">';
+    for(var k=0;k<=4;k++){var y=pt+ih-ih*k/4, val=(o.max*k/4); s+='<line x1="'+pl+'" x2="'+(W-pr)+'" y1="'+y+'" y2="'+y+'" stroke="rgba(180,205,235,.12)"/><text x="'+(pl-10)+'" y="'+(y+4)+'" fill="#93A6BC" font-size="12" text-anchor="end">'+(o.max<20?val.toFixed(o.max<=8?0:0):Math.round(val))+'</text>';}
+    s+='<text x="14" y="'+(pt+ih/2)+'" fill="#93A6BC" font-size="12" transform="rotate(-90 14 '+(pt+ih/2)+')" text-anchor="middle">'+o.unit+'</text>';
+    var g=o.groups.length, gw=iw/g, ns=o.series.length, bw=Math.min(54,(gw*0.62)/ns);
+    o.groups.forEach(function(name,gi){
+      var cx=pl+gw*gi+gw/2;
+      o.series.forEach(function(se,si){
+        var v=se.v[gi], h=ih*v/o.max, x=cx-(bw*ns)/2+si*bw+ (ns>1?2:0), y=pt+ih-h, col=se.colors?se.colors[gi]:se.c;
+        s+='<rect x="'+x+'" y="'+(pt+ih)+'" width="'+(bw-(ns>1?4:0))+'" height="0" rx="4" fill="'+col+'"><animate attributeName="height" from="0" to="'+h+'" dur="'+(reduce?'0.01s':'0.6s')+'" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/><animate attributeName="y" from="'+(pt+ih)+'" to="'+y+'" dur="'+(reduce?'0.01s':'0.6s')+'" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>';
+        s+='<text x="'+(x+(bw-(ns>1?4:0))/2)+'" y="'+(y-8)+'" fill="#E8EEF5" font-size="12.5" text-anchor="middle">'+String(v).replace('.',',')+'</text>';
+      });
+      s+='<text x="'+cx+'" y="'+(H-pb+22)+'" fill="#93A6BC" font-size="13" text-anchor="middle">'+name+'</text>';
+    });
+    if(ns>1){ o.series.forEach(function(se,si){ var x=pl+si*130; s+='<rect x="'+x+'" y="'+(H-16)+'" width="12" height="12" rx="3" fill="'+se.c+'"/><text x="'+(x+20)+'" y="'+(H-6)+'" fill="#E8EEF5" font-size="13">'+se.n+'</text>';}); }
+    s+='</svg>';
+    document.getElementById('chart').innerHTML=s;
+    document.getElementById('rt').textContent=o.t;
+    document.getElementById('rd').textContent=o.d;
+    document.getElementById('rr').innerHTML=o.r+'<small>'+o.rs+'</small>';
+    document.getElementById('rk').innerHTML=o.kv.map(function(p){return '<div><dt>'+p[0]+'</dt><dd>'+p[1]+'</dd></div>'}).join('');
+    document.getElementById('heat').style.display = i===2?'grid':'none';
+  }
+  var tabs=document.querySelectorAll('[role=tab]');
+  tabs.forEach(function(t){ t.addEventListener('click',function(){ tabs.forEach(function(x){x.setAttribute('aria-selected',x===t?'true':'false')}); draw(+t.dataset.i); }); });
+  draw(0);
+
+  // Session demo: 15 minutes shown in 15 seconds
+  var ring=document.getElementById('ring'), clock=document.getElementById('clock'), btn=document.getElementById('demo'), timer=null;
+  btn.addEventListener('click',function(){
+    if(timer){clearInterval(timer)}
+    var t=0, total=900; btn.textContent='Сеанс идёт…';
+    timer=setInterval(function(){
+      t+=10; var left=Math.max(0,total-t), m=Math.floor(left/60), s=left%60;
+      clock.textContent=m+':'+(s<10?'0':'')+s; ring.setAttribute('stroke-dashoffset', 194.8*t/total);
+      if(left<=0){clearInterval(timer);timer=null;clock.textContent='Готово';btn.textContent='Показать ещё раз';}
+    }, reduce?1:166);
+  });
+
+  // Document zoom
+  var dlg=document.getElementById('zoom');
+  document.querySelectorAll('.doc').forEach(function(b){ b.addEventListener('click',function(){ dlg.querySelector('img').src=b.dataset.src; dlg.querySelector('img').alt=b.querySelector('img').alt; dlg.showModal(); }); });
+  dlg.querySelector('button').addEventListener('click',function(){dlg.close()});
+  dlg.addEventListener('click',function(e){ if(e.target===dlg) dlg.close(); });
+})();
+</script>
+</body>
+</html>
